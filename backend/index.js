@@ -13,7 +13,7 @@ const server = require("./socket/socket")(app); // Assuming your socket setup ex
 const cors = require("cors");
 
 app.use(cors({
-    origin: 'https://your-frontend-domain.vercel.app', // Replace with your actual frontend domain
+    origin: 'https://sponsor-front.vercel.app', // Replace with your actual frontend domain
     credentials: true // Allow cookies for authenticated requests (if applicable)
 }));
 
