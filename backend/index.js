@@ -18,7 +18,13 @@ const store = require('./middlewares/session-store');
 const multer = require('multer');
 const path = require('path');
 
-app.use(cors());
+app.use(cors(
+  {
+    origin:["https://sponsor-connect-rmhx.vercel.app/"],
+    methods:["POST","GET"],
+    credentials:true
+  }
+));
 app.use(bodyParser.json());
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: true }));
