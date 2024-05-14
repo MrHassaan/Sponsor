@@ -11,7 +11,7 @@ import EditEvent from './pages/edit-event'
 import { useSelector } from 'react-redux';
 import Logout from './pages/logout';
 import EventDetails from './pages/event-details';
-import Events from './pages/events';
+import Events from './pages/Events';
 import Proposal from './pages/proposal';
 import CreateProposal from './pages/create-proposal';
 import EditProposal from './pages/edit-proposal';
