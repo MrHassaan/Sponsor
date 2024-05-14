@@ -20,7 +20,7 @@ const path = require('path');
 
 app.use(cors(
   {
-    origin:["https://sponsor-connect-rmhx.vercel.app/"],
+    origin:["https://sponsor-front.vercel.app/"],
     methods:["POST","GET"],
     credentials:true
   }
